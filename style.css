@@ -1,0 +1,103 @@
+.search {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.search-input {
+    height: 40px;
+    width: 300px;
+    background-color: #f1f1f1;
+    border: 1px solid rgb(112, 118, 120);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search-btn {
+    height: 40px;
+    width: 70px;
+    padding: 5px;
+    background-color: rgb(225, 226, 227);
+    color: black;
+    border: 1px solid rgb(112, 118, 120);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.div-cart {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.meal-cart {
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.meal-cart:hover {
+    transform: scale(1.05);
+}
+
+.cart-img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.title {
+    padding-top: 10px;
+    color: rgb(241, 108, 19);
+}
+
+.meal-details {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(236, 232, 232);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    z-index: 1000;
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+.meal-details.hidden {
+    display: none;
+}
+
+.meal-details img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.meal-details h2 {
+    margin-top: 10px;
+    color: rgb(241, 108, 19);
+}
+
+.meal-details p {
+    margin-top: 10px;
+    color: #333;
+}
+
+.close-btn {
+    background-color:  rgb(241, 108, 19);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
